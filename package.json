@@ -1,15 +1,18 @@
 {
   "name": "element-config",
   "version": "0.1.0",
+  "description": "基于Element的常用组件封装可配置化组件",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name elementConfig --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "element-ui": "^2.15.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
