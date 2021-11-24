@@ -1,14 +1,15 @@
 {
   "name": "element-config",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "description": "基于Element的常用组件封装可配置化组件",
   "private": false,
   "homepage": "https://github.com/oppnys/element-config",
+  "main": "./lib/index.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name elementConfig --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name index --dest lib packages/index.js"
   },
   "keywords": [
     "element",
