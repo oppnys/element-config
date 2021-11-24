@@ -2,13 +2,19 @@
   "name": "element-config",
   "version": "0.1.0",
   "description": "基于Element的常用组件封装可配置化组件",
-  "private": true,
+  "private": false,
+  "homepage": "https://github.com/oppnys/element-config",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name elementConfig --dest lib packages/index.js"
   },
+  "keywords": [
+    "element",
+    "form",
+    "table"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
