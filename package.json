@@ -1,6 +1,6 @@
 {
   "name": "element-config",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "基于Element的常用组件封装可配置化组件",
   "private": false,
   "homepage": "https://github.com/oppnys/element-config",
