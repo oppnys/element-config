@@ -13,11 +13,11 @@ npm i element-config --save-dev
 import element from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(element)
-Vue.prototype.FormType = elementConfig.FormType
 
 // 注入element-config
 import elementConfig from 'element-config'
 Vue.use(elementConfig)
+Vue.prototype.FormType = elementConfig.FormType
 ```
 
 ## Table的使用
