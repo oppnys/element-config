@@ -14,7 +14,7 @@ export default {
     return {
       forms: [
         {
-          type: this.FromType.INPUT,
+          type: this.FormType.INPUT,
           property: 'name',
           label: '名字',
           value: '',
@@ -25,7 +25,7 @@ export default {
           }
         },
         {
-          type: this.FromType.SELECT,
+          type: this.FormType.SELECT,
           property: 'sex',
           label: '性别',
           value: '',
@@ -38,7 +38,7 @@ export default {
           ]
         },
         {
-          type: this.FromType.BUTTON,
+          type: this.FormType.BUTTON,
           buttons: [
             {
               value: '确定',

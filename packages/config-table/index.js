@@ -1,4 +1,4 @@
-import elementConfTable from './src/element-config-table'
+import elementConfTable from './src/element-conf-table.vue'
 
 // 为组件提供 install 安装方法，供按需引入
 elementConfTable.install = function (Vue) {

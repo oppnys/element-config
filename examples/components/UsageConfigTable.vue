@@ -1,10 +1,10 @@
 <template>
   <div class="app-container">
-    <element-config-table :label-data="labelData" :table-data="tableData">
+    <element-conf-table :label-data="labelData" :table-data="tableData">
       <template slot="op">
         <el-button size="mini" type="primary">修改</el-button>
       </template>
-    </element-config-table>
+    </element-conf-table>
   </div>
 </template>
 

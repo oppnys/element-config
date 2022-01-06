@@ -1,4 +1,4 @@
-import elementConfForm, { FromType } from "./config-form/index.js";
+import elementConfForm, { FormType } from "./config-form/index.js";
 import elementConfTable from './config-table/index.js';
 
 // 存储组件列表
@@ -20,6 +20,6 @@ export default {
     install,
     // 以下是具体的组件列表
     elementConfForm,
-    FromType,
+    FormType,
     elementConfTable,
 };

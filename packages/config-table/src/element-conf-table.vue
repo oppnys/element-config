@@ -88,7 +88,7 @@
 
 <script>
 export default {
-  name: 'ElementConfigTable',
+  name: 'ElementConfTable',
   props: {
     labelData: {
       type: Array,

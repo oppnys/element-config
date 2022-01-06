@@ -13,6 +13,7 @@ npm i element-config --save-dev
 import element from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(element)
+Vue.prototype.FormType = elementConfig.FormType
 
 // 注入element-config
 import elementConfig from 'element-config'
@@ -24,11 +25,11 @@ Vue.use(elementConfig)
 ```
 <template>
   <div class="app-container">
-    <element-config-table :label-data="labelData" :table-data="tableData">
+    <element-conf-table :label-data="labelData" :table-data="tableData">
       <template slot="op">
         <el-button size="mini" type="primary">修改</el-button>
       </template>
-    </element-config-table>
+    </element-conf-table>
   </div>
 </template>
 
@@ -58,7 +59,7 @@ export default {
 ```
 <template>
   <div class="hello">
-    <ElementConfForm ref="searchForm" :forms="forms" inline />
+    <element-conf-form ref="searchForm" :forms="forms" inline />
   </div>
 </template>
 
